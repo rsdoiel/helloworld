@@ -1,14 +1,16 @@
-PROG_NAME = helloworld
+PROG_NAMES = helloworld hellofriend
 OBJECTS =
 CFLAGS = -g -Wall -O3
 LDLIBS =
 
 CC = c99
 
-$(PROG_NAME): $(OBJECTS)
+all: $(PROG_NAMES)
+
+$(PROG_NAMES): $(OBJECTS)
 
 clean: .FORCE
 	rm -fR *.dSYM
-	rm $(PROG_NAME)
+	rm $(PROG_NAMES)
 
 .FORCE:

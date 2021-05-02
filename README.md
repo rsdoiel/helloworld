@@ -8,6 +8,7 @@ machine has C setup as I expect.
 ```
 make
 ./helloworld
+./hellofriend
 make clean
 ```
 
