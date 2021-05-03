@@ -8,7 +8,7 @@ long long int fibonacci(){
 }
 
 int main(){ 
-    printf("Hi, I'm fibonacci ");
-    for (int i = 0; i < 50; i ++)
+    printf("Hi, I'm fibonacci, I count.\n");
+    for (int i = 0; i < 10; i ++)
         printf("%lli\n", fibonacci());
 }
