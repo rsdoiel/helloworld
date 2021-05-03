@@ -52,3 +52,17 @@ Mkfile.old
 dkms.conf
 helloworld
 hellofriend
+# Autotools
+.deps/*
+Makefile.in
+aclocal.m4
+autom4te.cache/*
+autoscan.log
+compile
+config.h.in
+configure
+configure.scan
+configure~
+depcomp
+install-sh
+missing
