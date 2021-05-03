@@ -1,4 +1,4 @@
-PROG_NAMES = helloworld hellofriend
+PROG_NAMES = helloworld hellofriend hifibo
 OBJECTS =
 CFLAGS = -g -Wall -O3
 LDLIBS =

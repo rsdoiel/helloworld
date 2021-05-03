@@ -52,6 +52,7 @@ Mkfile.old
 dkms.conf
 helloworld
 hellofriend
+hifibo
 # Autotools
 .deps/*
 Makefile.in
