@@ -6,10 +6,10 @@ classic using a Makefile. I use it to see if the
 machine has C setup as I expect.
 
 ```
-make
+make -f Makefile.simple
 ./helloworld
 ./hellofriend
-make clean
+make -f Makefile.simple clean
 ```
 
 macOS
